@@ -13,6 +13,10 @@ body{
     overflow: hidden;    
 }
 
+.flex{
+display: flex;
+}
+
 .background{
     background-color: #F0F2F2;
     background-size: cover;
@@ -56,7 +60,7 @@ header{
     align-items: center;
     justify-content: center;
 }
-button{
+header button{
     color: #F2A29B;
     background: transparent;
     border: solid 1px #F2A29B;
@@ -67,9 +71,41 @@ button{
     cursor: pointer;
  }
 
- button:hover{
+header button:hover{
     background-color: #F2A29B;
     color: white;  
     transition: 0.5s;
 
  }
+
+ section.Topo-do-site{
+    padding: 40px 4%;
+ }
+
+section.Topo-do-site .flex{
+    align-items: center;
+    justify-content: center;   
+    gap: 0px;
+    font-size: 30px;
+}
+
+.Topo-do-site span{  
+    color: #37a6a6;
+    font-size: 60px;
+}
+
+main .btn-contato button{
+    color: white;
+    background: #F2A29B;
+    border: solid 4px #F2A29B;
+    padding: 5px;
+    border-radius: 22px;
+    font-size: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+
+main .btn-contato button:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
