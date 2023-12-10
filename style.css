@@ -153,3 +153,26 @@ h3{
     border: 3px solid black;
     border-radius: 20px;
 }
+
+footer{
+    padding: 20px 4%;
+    box-shadow: 0 0 40px 10px #aaaa;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .btn-social button{
+    color: black;
+    background: transparent;
+    padding: 10px;  
+    font-size: 40px;
+    cursor: pointer;
+    border: transparent;
+}
+
+footer .btn-social button:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Gabriel Saraiva Canabrava</title>
 </head>
@@ -13,18 +14,15 @@
                 <img src="images/Logo.png" width="250" height="150" />
             </div>
             <div class="cabeçalho-link">
+
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#topo-do-site">Sobre mim</a>
                 </li>
 
                 <li>
-                    <a href="#">Sobre mim</a>
+                    <a href="#projetos">Projetos</a>
                 </li>
-
-                <li>
-                    <a href="#">Projetos</a>
-                </li>
-                    <a href="#">
+                    <a href="#rodape">
                         <button> Meu contato</button>
                     </a>
 
@@ -32,6 +30,7 @@
         </header>
 
         <main>
+            <section id="topo-do-site">
             <section class="Topo-do-site">
                 <div class="interface">
                     <div class="flex">
@@ -51,15 +50,17 @@
                     </div>
                 </div>
             </section>
+            </section>
             
+            <section id="projetos">
             <section class="Projetos">
                 <div class="interface">
                     <h2 class="titulo">Meus <span> Projetos</span></h2>
                     <div class="flex">
                         <div class="projetos-box">
                             <img src="images/Controle-de-Vendas.png" alt="Projeto 1" width="300" height="200">
-                            <h3>Controle de Vendas</h3>
-                            <p>É um projeto desenvolvido para treinar Orientação obejetos. consiste em um controle de vendas com fluxo de caixa</p>
+                            <h3>Nossa Loja</h3>
+                            <p>É um projeto desenvolvido para treinar Orientação Obejetos. Consiste em um controle de vendas.</p>
                         </div>
                     
                         <div class="projetos-box">
@@ -71,8 +72,27 @@
                     </div>
                 </div>
             </section>
+            </section>
         </main>
 
-    </div>
+        <footer>
+            <section id="rodape">
+            <div class="interface">
+                <div class="linha">
+                        <div class="flex">
+                            <div class="logo-footer">
+                                <img src="images/Logo.png" alt="Logo" width="250" height="150"/>
+                            </div>
+                            <div class="btn-social">
+                                <a href="https://github.com/gabrielsarcan"><button><i class="bi bi-github"></i></button></a>
+                                <a href="https://www.linkedin.com/in/gabriel-saraiva-b8565225b/"><button><i class="bi bi-linkedin"></i></button></a>
+                            </div>
+                        </div>
+                </div>
+
+                    <p><i class="bi bi-envelope-fill"></i> <a href="mailto:gabrielsarcan@hotmail.com">gabrielsarcan@hotmail.com </a></a>
+            </div>
+            </section>
+        </footer>
 </body>
 </html>
