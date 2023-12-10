@@ -14,13 +14,13 @@ body{
     height: 100vh;
 }
 
-h2.titulo{
+h2{
     color: black;
     font-size: 40px;
     text-align: center;
 }
 
-h2.titulo span{
+h2 span{
     color: #37a6a6;
 }
 
@@ -152,6 +152,43 @@ h3{
 .Projetos .projetos-box img{
     border: 3px solid black;
     border-radius: 20px;
+}
+
+section.habilidades{
+    padding: 40px 4%;
+    
+}
+
+section.habilidades .flex{
+    gap: 60px;
+}
+
+.habilidades .habilidades-box{
+    margin-top: 25px;
+    padding: 40px;
+    box-shadow: 4px 4px 20px#aaaa;
+    border-radius: 20px;
+
+}
+
+.habilidades .habilidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #aaaa;
+    transition: 0.2s;
+}
+
+.habilidades .habilidades-box i{
+    font-size: 80px;
+
+}
+
+.habilidades .habilidades-box p{
+    font-size: 20px;
+}
+
+.habilidades .habilidades-box h3{
+    font-size: 25px;
+    margin: 15px 0;
 }
 
 footer{
