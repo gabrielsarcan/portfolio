@@ -168,7 +168,8 @@ section.habilidades .flex{
     padding: 40px;
     box-shadow: 4px 4px 20px#aaaa;
     border-radius: 20px;
-
+    width: 600px;
+    height: auto;
 }
 
 .habilidades .habilidades-box:hover{
